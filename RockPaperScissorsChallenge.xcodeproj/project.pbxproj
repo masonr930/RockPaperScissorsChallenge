@@ -17,6 +17,9 @@
 		4A3A93A729228591000D3CE1 /* RockPaperScissorsChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A93A629228591000D3CE1 /* RockPaperScissorsChallengeTests.swift */; };
 		4A3A93B129228591000D3CE1 /* RockPaperScissorsChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A93B029228591000D3CE1 /* RockPaperScissorsChallengeUITests.swift */; };
 		4A3A93B329228591000D3CE1 /* RockPaperScissorsChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A93B229228591000D3CE1 /* RockPaperScissorsChallengeUITestsLaunchTests.swift */; };
+		4A71CB202923D2DC00627512 /* CPUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71CB1F2923D2DC00627512 /* CPUViewController.swift */; };
+		4AC7005B292670F600C91C6E /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7005A292670F600C91C6E /* FriendViewController.swift */; };
+		4AC7005D2926719000C91C6E /* YUHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7005C2926719000C91C6E /* YUHViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		4A3A93AC29228591000D3CE1 /* RockPaperScissorsChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3A93B029228591000D3CE1 /* RockPaperScissorsChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsChallengeUITests.swift; sourceTree = "<group>"; };
 		4A3A93B229228591000D3CE1 /* RockPaperScissorsChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A71CB1F2923D2DC00627512 /* CPUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUViewController.swift; sourceTree = "<group>"; };
+		4AC7005A292670F600C91C6E /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		4AC7005C2926719000C91C6E /* YUHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUHViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +110,10 @@
 				4A3A938C29228590000D3CE1 /* AppDelegate.swift */,
 				4A3A938E29228590000D3CE1 /* SceneDelegate.swift */,
 				4A3A939029228590000D3CE1 /* ViewController.swift */,
+				4A71CB1F2923D2DC00627512 /* CPUViewController.swift */,
+				4AC7005A292670F600C91C6E /* FriendViewController.swift */,
 				4A3A939229228590000D3CE1 /* Main.storyboard */,
+				4AC7005C2926719000C91C6E /* YUHViewController.swift */,
 				4A3A939829228591000D3CE1 /* Assets.xcassets */,
 				4A3A939A29228591000D3CE1 /* LaunchScreen.storyboard */,
 				4A3A939D29228591000D3CE1 /* Info.plist */,
@@ -261,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC7005B292670F600C91C6E /* FriendViewController.swift in Sources */,
+				4AC7005D2926719000C91C6E /* YUHViewController.swift in Sources */,
 				4A3A939129228590000D3CE1 /* ViewController.swift in Sources */,
 				4A3A938D29228590000D3CE1 /* AppDelegate.swift in Sources */,
+				4A71CB202923D2DC00627512 /* CPUViewController.swift in Sources */,
 				4A3A939729228590000D3CE1 /* RockPaperScissorsChallenge.xcdatamodeld in Sources */,
 				4A3A938F29228590000D3CE1 /* SceneDelegate.swift in Sources */,
 			);
