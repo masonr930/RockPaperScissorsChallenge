@@ -84,18 +84,21 @@ class CPUViewController: UIViewController {
             wins += 1
             winsOutlet.text = String(wins)
             resultOutlet.text = "You win!"
+            resultOutlet.backgroundColor = UIColor.green
         }
         else if yuh == -1
         {
             loss += 1
             lossOutlet.text = String(loss)
             resultOutlet.text = "You lose!"
+            resultOutlet.backgroundColor = UIColor.red
         }
         else
         {
             ties += 1
             tiesOutlet.text = String(ties)
             resultOutlet.text = "You tied!"
+            resultOutlet.backgroundColor = UIColor.gray
         }
         
     }
@@ -110,18 +113,21 @@ class CPUViewController: UIViewController {
             wins += 1
             winsOutlet.text = String(wins)
             resultOutlet.text = "You win!"
+            resultOutlet.backgroundColor = UIColor.green
         }
         else if yuh == -1
         {
             loss += 1
             lossOutlet.text = String(loss)
             resultOutlet.text = "You lose!"
+            resultOutlet.backgroundColor = UIColor.red
         }
         else
         {
             ties += 1
             tiesOutlet.text = String(ties)
             resultOutlet.text = "You tied!"
+            resultOutlet.backgroundColor = UIColor.gray
         }
     }
         
@@ -135,18 +141,21 @@ class CPUViewController: UIViewController {
                 wins += 1
                 winsOutlet.text = String(wins)
                 resultOutlet.text = "You win!"
+                resultOutlet.backgroundColor = UIColor.green
             }
             else if yuh == -1
             {
                 loss += 1
                 lossOutlet.text = String(loss)
                 resultOutlet.text = "You lose!"
+                resultOutlet.backgroundColor = UIColor.red
             }
             else
             {
                 ties += 1
                 tiesOutlet.text = String(ties)
                 resultOutlet.text = "You tied!"
+                resultOutlet.backgroundColor = UIColor.gray
             }
         }
         
